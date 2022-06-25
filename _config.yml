@@ -1,2 +1,7 @@
+title: "bootcamp-programacion-web"
+# remote_theme: just-the-docs/just-the-docs
 theme: "just-the-docs"
-remote_theme: just-the-docs/just-the-docs
+# color_scheme: "dark"
+search_enabled: false
+url: ""
+logo: "/assets/images/logo.png"
