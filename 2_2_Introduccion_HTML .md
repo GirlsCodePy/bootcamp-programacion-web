@@ -1,7 +1,7 @@
 ---
-title: Qué es Programación
+title: Herramientas básicas para el desarrollador
 has_children: false
-parent: Introduccion a la programación
+parent: Herramientas básicas para el desarrollador
 ---
 
 # ¿Qué es programación?
