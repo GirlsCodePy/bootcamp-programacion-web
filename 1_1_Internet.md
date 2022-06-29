@@ -20,7 +20,7 @@ La dirección IP permite a los servidores identificar a qué sitio web queremos 
 
 En un nivel muy básico, **Internet es básicamente la conexión de cables a computadoras con un tipo de protocolo específico.** 
 
-![texto alternativo](https://www.hostgator.mx/blog/wp-content/uploads/2018/05/internet-de-las-cosas-blog-hostgator-1.png)
+![texto alternativo](https://www.partesdel.com/wp-content/uploads/que-es-internet.jpg)
 
 Si tu solicitud llega al servidor, puede enviar de vuelta el sitio web que solicitaste, pero el contenido del sitio web is demasiado grande para enviar de vuelta a través de un solo paquete de datos. La manera en la que un servidor resuelve esto, es a través del **envío en diferentes paquetes de datos, los cuales tienen las instrucciones de cómo volver y juntarse con los otros paquetes una vez que lleguen a su destino final**. 
 
