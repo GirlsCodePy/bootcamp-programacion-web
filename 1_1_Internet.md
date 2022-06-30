@@ -14,7 +14,7 @@ Antes de que podamos empezar a aprender sobre todas las tecnologías y herramien
 
 ## ¿Qué pasa cuándo abrimos el navegador y visitamos una página web?
 
-Al tipear cualquier sitio, **la computadora envía una solicitud como un paquete que incluye la dirección IP del sitio web al cual querés acceder.** 
+Al tipear cualquier sitio, **la computadora envía una solicitud como un paquete que incluye la dirección IP del sitio web al cual querés acceder.** Una dirección IP es un identificador de la red. 
 
 La dirección IP permite a los servidores identificar a qué sitio web queremos tener acceso, y **manda las solicitudes a través de cables o satelites que eventualmente se conectan a cables utilizando tu servicio proveedor de Internet.**
 
