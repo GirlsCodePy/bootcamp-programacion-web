@@ -6,7 +6,7 @@ description: "Bootcamp de introduccion a la programacion web."
 permalink: /
 ---
 
-# Propuesta de valor.
+# Introducción a la programación web.
 {: .fs-9 }
 
 Propuesta de valor del curso de programacion web. Una frase que explique los puntos mas fuertes del programa y la filosofia detras.
