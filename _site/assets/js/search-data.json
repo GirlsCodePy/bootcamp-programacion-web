@@ -144,10 +144,10 @@
     "relUrl": "/9_Typing_Game.html"
   },"24": {
     "doc": "Home",
-    "title": "Propuesta de valor.",
+    "title": "Introducción a la programación web.",
     "content": "Propuesta de valor del curso de programacion web. Una frase que explique los puntos mas fuertes del programa y la filosofia detras. Empezar Girls Code . ",
-    "url": "http://localhost:4000/#propuesta-de-valor",
-    "relUrl": "/#propuesta-de-valor"
+    "url": "http://localhost:4000/#introducci%C3%B3n-a-la-programaci%C3%B3n-web",
+    "relUrl": "/#introducción-a-la-programación-web"
   },"25": {
     "doc": "Home",
     "title": "Fundamentacion",
