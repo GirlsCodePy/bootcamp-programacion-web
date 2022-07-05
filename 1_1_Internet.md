@@ -50,14 +50,14 @@ Esos son los 3 contenidos de frontend que los sitios web modernos usan hoy en d�
 
 * CSS significa Cascading Style Sheets. Serían como unas fichas de estilo. Con CSS se definen cuestiones del sitio web como colores, fuentes, bordes, etc. Casi todos los sitios web lo tienen para que luzcan lindos.
 
-* Javascript nos permite interactuar con el sitio web incluyendo la lógica. De otra manera, si el sitio no hace nada, solamente muestra información. Este tipo de sitios se conocen como sitios estáticos. *Este lenguaje no lo cubriremos hasta el momento, sino que iremos de HTML y CSS a la parte de backend*.
+* Javascript nos permite interactuar con el sitio web incluyendo la lógica. De otra manera, si el sitio no hace nada, solamente muestra información. Este tipo de sitios se conocen como sitios estáticos. 
 
 Para cualquier sitio, siempre se utilizan estas herramientas de frontend. Es en el área de backend donde hay una gran variedad de opciones y herramientas que se pueden utilizar. 
 
 **La parte de backend de un sitio tiene 3 componentes:**
 
 1. El lenguaje utilizado.
-2. El framework utilizado para ese lenguaje.
+2. El marco de trabajo (framework) utilizado para ese lenguaje.
 3. La base de datos a la cual se conectan.
 
 Opciones como PHP, Node.js, Ruby/Rails, Java, Python, etc, son todas opciones viables para un sitio web.
