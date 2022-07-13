@@ -54,7 +54,7 @@ Las opciones para la línea de comando varian según el sistema operativo que ut
 ## Windows
 
 - [Powershell](https://docs.microsoft.com/powershell/scripting/overview?view=powershell-7?WT.mc_id=academic-13441-cxa){:target="_blank"} 💻
-- [Command Line](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands?WT.mc_id=academic-13441-cxa){:target="_blank"} (also known as CMD) 💻
+- [Command Line](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands?WT.mc_id=academic-13441-cxa){:target="_blank"} (también conocido como CMD) 💻
 - [Windows Terminal](https://docs.microsoft.com/windows/terminal/?WT.mc_id=academic-13441-cxa){:target="_blank"}
 - [Mintty](https://mintty.github.io/){:target="_blank"}
   
