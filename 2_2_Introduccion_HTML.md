@@ -8,7 +8,7 @@ parent: Herramientas de programación y HTML
 
 HTML, o HyperText Markup Language, es el "esqueleto" de la web. Si CSS 'viste' su HTML y JavaScript le da vida, el cuerpo de su aplicación web es su HTML. La sintaxis de HTML incluso refleja esa idea, ya que incluye etiquetas "head", "body" y "footer".
 
-En esta lección, usaremos HTML para diseñar el 'esqueleto' de la interfaz de nuestro terrario virtual. Tendrá un título y tres columnas: una columna derecha e izquierda donde viven las plantas que se pueden arrastrar, y un área central que será el terrario de vidrio real. Al final de esta lección, podrá ver las plantas en las columnas, pero la interfaz se verá un poco extraña; no se preocupe, en la siguiente sección agregará estilos CSS a la interfaz para que se vea mejor.
+En esta lección, usaremos HTML para diseñar el 'esqueleto' de la interfaz de nuestra plaza virtual. Tendrá un título y tres columnas: una columna derecha e izquierda donde viven los elementos que se pueden arrastrar, y un área central que será el terreno para la plaza. Al final de esta lección, podrás ver los elmentos en las columnas, pero la interfaz se verá un poco extraña; no te preocupes, en la siguiente sección agregarás estilos CSS a la interfaz para que se vea mejor.
 
 # Tarea:
 
@@ -100,67 +100,67 @@ Crea una carpeta en tu aplicación llamada `images` y en ella, agrega todas las 
 
 # Tarea:
 
-Agrega estas imágenes de plantas en dos columnas entre las etiquetas `<body> </body>`:
+Agrega estas imágenes de elementos en dos columnas entre las etiquetas `<body> </body>`:
 
 
 ```html
 <div id="pagina">
     <div id="contenedor-izquierdo" class="contenedor">
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza1" src="./images/plaza_1.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza1" src="./images/plaza_1.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza2" src="./images/plaza_2.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza2" src="./images/plaza_2.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza3" src="./images/plaza_3.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza3" src="./images/plaza_3.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza4" src="./images/plaza_4.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza4" src="./images/plaza_4.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza5" src="./images/plaza_5.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza5" src="./images/plaza_5.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza6" src="./images/plaza_6.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza6" src="./images/plaza_6.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza7" src="./images/plaza_7.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza7" src="./images/plaza_7.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza8" src="./images/plaza_8.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza8" src="./images/plaza_8.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza9" src="./images/plaza_9.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza9" src="./images/plaza_9.png" />
         </div>
     </div>
-    <div id="right-contenedor" class="contenedor">
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza10" src="./images/plaza_10.png" />
+    <div id="contenedor-derecho" class="contenedor">
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza10" src="./images/plaza_10.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza11" src="./images/plaza_11.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza11" src="./images/plaza_11.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza12" src="./images/plaza_12.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza12" src="./images/plaza_12.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza13" src="./images/plaza_13.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza13" src="./images/plaza_13.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza14" src="./images/plaza_14.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza14" src="./images/plaza_14.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza15" src="./images/plaza_15.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza15" src="./images/plaza_15.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza16" src="./images/plaza_16.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza16" src="./images/plaza_16.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza17" src="./images/plaza_17.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza17" src="./images/plaza_17.png" />
         </div>
-        <div class="contenedor-plaza">
-            <img class="plaza" alt="plaza" id="plaza18" src="./images/plaza_18.png" />
+        <div class="contenedor-componente">
+            <img class="componente" alt="componente" id="plaza18" src="./images/plaza_18.png" />
         </div>
     </div>
   </div>
@@ -168,9 +168,9 @@ Agrega estas imágenes de plantas en dos columnas entre las etiquetas `<body> </
 
 > Nota: Spans vs. Divs. Los Divs se consideran elementos de 'bloque' y los Spans están 'en línea'. ¿Qué pasaría si transformaras estos divs en tramos?
 
-Con este marcado, las plantas ahora aparecen en la pantalla. Se ve bastante mal, porque aún no están diseñados con CSS, y lo haremos en la próxima lección.
+Con este marcado, los componentes ahora aparecen en la pantalla. Se ve bastante mal, porque aún no están diseñados con CSS, y lo haremos en la próxima lección.
 
-Cada imagen tiene una etiqueta alt que aparecerá incluso si no puede ver o representar una imagen. Este es un elemento importante a incluir para la accesibilidad. Obtenga más información sobre accesibilidad en lecciones futuras; Por ahora, recuerde que es importante permitir que los lectores de pantalla recorran su aplicación web para que los usuarios con discapacidad visual puedan utilizar su sitio web.
+Cada imagen tiene una etiqueta alt que aparecerá incluso si no puede ver o representar una imagen. Este es un elemento importante a incluir para la accesibilidad. Obtiene más información sobre accesibilidad en lecciones futuras. PPor ahora, recuerda que es importante permitir que los lectores de pantalla recorran tu aplicación web para que los usuarios con discapacidad visual puedan utilizar tu sitio web.
 
 ✅ ¿Notaste que cada imagen tiene la misma etiqueta alt? ¿Es esta una buena práctica? ¿Por qué o por qué no? ¿Puedes mejorar este código?
 
@@ -188,7 +188,7 @@ Agrega la siguiente línea justo debajo de tu etiqueta de apertura `<body>`:
 
 El uso de marcado semántico, como que los encabezados sean `<h1>` y las listas desordenadas se representen como `<ul>`, ayuda a los lectores de pantalla a navegar por una página. En general, los botones deben escribirse como `<button>` y las listas deben ser `<li>`. Si bien es _posible_ usar elementos `<span>` de estilo especial con controladores de clic para simular botones, es mejor que los usuarios con capacidades diferentes usen tecnologías para determinar en qué parte de una página reside un botón e interactuar con él, si el elemento aparece como un botón. Por esta razón, intente utilizar el marcado semántico tanto como sea posible.
 
-✅ Eche un vistazo a un lector de pantalla y [cómo interactúa con una página web](https://www.youtube.com/watch?v=OUDV1gqs9GA){:target="_blank"}. ¿Puedes ver por qué tener un marcado no semántico podría confundir al usuario?
+✅ Echa un vistazo a un lector de pantalla y [cómo interactúa con una página web](https://www.youtube.com/watch?v=OUDV1gqs9GA){:target="_blank"}. ¿Puedes ver por qué tener un marcado no semántico podría confundir al usuario?
 
 ## 5. La plaza
 
@@ -200,13 +200,8 @@ Agrega este marcado encima de la última etiqueta `</div>`:
 
 ```html
 <div id="plazita">
-	<div class="caminero_externo"></div>
-	<div class="seccion-interna">
-		<div class="sendero"></div>
-		<div class="empastado"></div>
-	</div>
+    <div class="cielo"></div>
 	<div class="suelo"></div>
-	<div class="entrada"></div>
 </div>
 ```
 
@@ -225,7 +220,7 @@ HTML es el sistema de bloques de construcción 'probado y verdadero' que ha ayud
 
 ### Instrucciones
 
-Imagina que está diseñando o rediseñando su sitio web personal. Cree mockup del mismo y luego el HTML que usaría para construir los diversos elementos que componen al mismo. Puede hacer esto en papel y escanearlo, o usar el software de su elección, solo asegúrese de codificar manualmente todo el HTML.
+Imagina que estás diseñando o rediseñando tu sitio web personal. Crea mockup del mismo y luego el HTML que usarías para construir los diversos elementos que componen al mismo. Puedes hacer esto en papel y escanearlo, o usar el software de tu elección, solo asegúrate de codificar manualmente todo el HTML.
 
 ### Rúbrica
 
