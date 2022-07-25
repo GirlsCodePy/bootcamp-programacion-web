@@ -211,7 +211,7 @@ Primero, diseña los elementos secundarios `.plazita` div como un rectángulo re
 
 Ten en cuenta el uso de porcentajes aquí. Si reduces la escala de tu navegador, también puedes ver cómo se escalan las esquinas de la plaza. Observa también los porcentajes de ancho y alto del cielo y el suelo, y como están absolutamente posicionados en el centro, fijado a la parte inferior de la ventana gráfica (viewport).
 
-✅ Intente cambiar los colores y la opacidad. ¿Qué pasa?
+✅ Intenta cambiar los colores y la opacidad. ¿Qué pasa?
 
 ---
 
@@ -220,17 +220,19 @@ Ten en cuenta el uso de porcentajes aquí. Si reduces la escala de tu navegador,
 
 ## Revisión y autoestudio
 
-CSS parece engañosamente sencillo, pero existen muchos desafíos cuando se trata de diseñar una aplicación perfectamente para todos los navegadores y todos los tamaños de pantalla. CSS-Grid y Flexbox son herramientas que se han desarrollado para hacer el trabajo un poco más estructurado y más confiable. Aprende sobre estas herramientas jugando a [Flexbox Froggy](https://flexboxfroggy.com/){:target="_blank"} y [Grid Garden](https://codepip.com/games/grid-garden/){:target="_blank"}.
+CSS parece engañosamente sencillo, pero existen muchos desafíos cuando se trata de diseñar una aplicación perfectamente para todos los navegadores y todos los tamaños de pantalla. CSS-Grid y Flexbox son herramientas que se han desarrollado para hacer el trabajo un poco más estructurado y más confiable. Aprende sobre estas herramientas jugando a [Flexbox Froggy](https://flexboxfroggy.com/#es){:target="_blank"} y [Grid Garden](https://codepip.com/games/grid-garden/){:target="_blank"}.
 
-**Asignación**: Refactorización CSS
-Cambia el estilo dela plaza usando Flexbox o CSS Grid, y toma capturas de pantalla para mostrar que lo probaste en varios navegadores. Es posible que debas cambiar el marcado, así que crea una nueva versión de la aplicación con el arte en su lugar para su refactorización. No te preocupe por hacer que los elementos se puedan arrastrar; solo refactoriza el HTML y CSS por ahora.
+Lectura adicional: [Diseña tu aplicación HTML con CSS](https://docs.microsoft.com/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa){:target="_blank"}
 
-## Rúbrica
+## Tarea - Refactorización CSS
+Cambia el estilo de la plaza usando Flexbox o CSS Grid, y toma capturas de pantalla para mostrar que lo probaste en varios navegadores. Es posible que debas cambiar el marcado, así que crea una nueva versión de la aplicación para su refactorización. No te preocupes por hacer que los elementos se puedan arrastrar; solo refactoriza el HTML y CSS por ahora.
+
+### Rúbrica
 
 | Criterios | Ejemplar                                                         | Adecuada                      | Necesita mejorar                    |
 | -------- | ----------------------------------------------------------------- | ----------------------------- | ------------------------------------ |
-|          | Presenta un terrario completamente rediseñado usando Flexbox o CSS Grid | Modifique algunos de los elementos | No cambiar el estilo del terrario en absoluto |
+|          | Presenta una plaza completamente rediseñada usando Flexbox o CSS Grid | Modificó algunos de los elementos | No cambió el estilo de la plaza en absoluto |
 
 
-[Diseñe su aplicación HTML con CSS](https://docs.microsoft.com/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa){:target="_blank"}
+
 
