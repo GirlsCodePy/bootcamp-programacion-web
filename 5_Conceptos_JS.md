@@ -2,7 +2,7 @@
 title: Conceptos de programación con Javascript 
 has_children: false
 parent: Jardin Digital
-nav_order: 4
+nav_order: 6
 ---
 
 # Another page
