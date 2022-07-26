@@ -5,9 +5,9 @@ nav_order: 4
 ---
 # Introducción:
 
-CSS, o Cascading Style Sheets, resuelve un problema importante del desarrollo web: cómo hacer que tu sitio web se vea bien. Diseñar tus aplicaciones las hace más útiles y atractivas. También puedes usar CSS para crear un diseño web receptivo (RWD), lo que permite que tus aplicaciones se vean bien sin importar en qué tamaño de pantalla se muestren. CSS no se trata sólo de hacer que tu aplicación se vea bien; su especificación incluye animaciones y transformaciones que pueden permitir interacciones sofisticadas para tus aplicaciones. El grupo de trabajo CSS ayuda a mantener las especificaciones CSS actuales; puedes seguir su trabajo en el [sitio del World Wide Web Consortium](https://www.w3.org/Style/CSS/members){:target="_blank"}.
+CSS, o Cascading Style Sheets, resuelve un problema importante del desarrollo web: cómo hacer que tu sitio web se vea bien. Diseñar tus aplicaciones las hace más útiles y atractivas. También puedes usar CSS para crear un diseño web receptivo (RWD), lo que permite que tus aplicaciones se vean bien sin importar en qué tamaño de pantalla se muestren. CSS no se trata sólo de hacer que tu aplicación se vea bien; su especificación incluye animaciones y transformaciones que pueden permitir interacciones sofisticadas para tus aplicaciones. El grupo de trabajo CSS ayuda a mantener las especificaciones CSS actuales; puedes seguir su trabajo en el [sitio del World Wide Web Consortium](http://es.tz8.de/style-css-members.html){:target="_blank"}.
 
-> Ten en cuenta que CSS es un lenguaje que evoluciona, como todo en la web, y no todos los navegadores admiten partes más nuevas de la especificación. Siempre verifica tus implementaciones consultando [CanIUse.com](caniuse.com){:target="_blank"}.
+> Ten en cuenta que CSS es un lenguaje que evoluciona, como todo en la web, y no todos los navegadores admiten partes más nuevas de la especificación. Siempre verifica tus implementaciones consultando [CanIUse.com](https://caniuse.com){:target="_blank"}.
 
 En esta lección, agregaremos estilos a nuestra plaza en línea y aprenderemos más sobre varios conceptos de CSS: la cascada, la herencia y el uso de selectores, posicionamiento y uso de CSS para crear diseños. En el proceso, diseñaremos la plaza y crearemos la plaza en sí.
 
@@ -218,11 +218,11 @@ Ten en cuenta el uso de porcentajes aquí. Si reduces la escala de tu navegador,
 ![plaza terminada](/assets/images/mi-plaza-terminada.png){:target="_blank"}
 
 
-## Revisión y autoestudio
+# Revisión y autoestudio
 
 CSS parece engañosamente sencillo, pero existen muchos desafíos cuando se trata de diseñar una aplicación perfectamente para todos los navegadores y todos los tamaños de pantalla. CSS-Grid y Flexbox son herramientas que se han desarrollado para hacer el trabajo un poco más estructurado y más confiable. Aprende sobre estas herramientas jugando a [Flexbox Froggy](https://flexboxfroggy.com/#es){:target="_blank"} y [Grid Garden](https://codepip.com/games/grid-garden/){:target="_blank"}.
 
-Lectura adicional: [Diseña tu aplicación HTML con CSS](https://docs.microsoft.com/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa){:target="_blank"}
+Lectura adicional: [Diseña tu aplicación HTML con CSS](https://docs.microsoft.com/es-mx/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa){:target="_blank"}
 
 ## Tarea - Refactorización CSS
 Cambia el estilo de la plaza usando Flexbox o CSS Grid, y toma capturas de pantalla para mostrar que lo probaste en varios navegadores. Es posible que debas cambiar el marcado, así que crea una nueva versión de la aplicación para su refactorización. No te preocupes por hacer que los elementos se puedan arrastrar; solo refactoriza el HTML y CSS por ahora.
