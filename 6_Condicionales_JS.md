@@ -2,7 +2,7 @@
 title: Condicionales en Javascript  
 has_children: false
 parent: Jardin Digital
-nav_order: 5
+nav_order: 7
 ---
 
 # Another page
