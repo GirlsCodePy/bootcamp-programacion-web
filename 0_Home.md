@@ -12,7 +12,7 @@ permalink: /
 Propuesta de valor del curso de programacion web. Una frase que explique los puntos mas fuertes del programa y la filosofia detras.
 {: .fs-6 .fw-300 }
 
-[Empezar](#empezar){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Girls Code](https://www.instagram.com/girlscodepy/?hl=es){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Empezar]({{ site.baseurl }}{% link 1_Intro_Programacion.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Girls Code](https://www.instagram.com/girlscodepy/?hl=es){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 

@@ -5,9 +5,11 @@ nav_order: 4
 ---
 # Introducción:
 
-CSS, o Cascading Style Sheets, resuelve un problema importante del desarrollo web: cómo hacer que tu sitio web se vea bien. Diseñar tus aplicaciones las hace más útiles y atractivas. También puedes usar CSS para crear un diseño web receptivo (RWD), lo que permite que tus aplicaciones se vean bien sin importar en qué tamaño de pantalla se muestren. CSS no se trata sólo de hacer que tu aplicación se vea bien; su especificación incluye animaciones y transformaciones que pueden permitir interacciones sofisticadas para tus aplicaciones. El grupo de trabajo CSS ayuda a mantener las especificaciones CSS actuales; puedes seguir su trabajo en el [sitio del World Wide Web Consortium](http://es.tz8.de/style-css-members.html){:target="_blank"}.
+CSS, o Cascading Style Sheets, resuelve un problema importante del desarrollo web: cómo hacer que tu sitio web se vea bien. Diseñar tus aplicaciones las hace más útiles y atractivas. También puedes usar CSS para crear un diseño web adaptable (Responsive), lo que permite que tus aplicaciones se vean bien sin importar en qué tamaño de pantalla se muestren. 
+CSS no se trata sólo de hacer que tu aplicación se vea bien; sus especificaciones incluyen animaciones y transformaciones que pueden permitir interacciones sofisticadas para tus aplicaciones. 
+El grupo de trabajo CSS ayuda a mantener las especificaciones CSS actuales; puedes seguir su trabajo en el [sitio del World Wide Web Consortium](http://es.tz8.de/style-css-members.html){:target="_blank"}.
 
-> Ten en cuenta que CSS es un lenguaje que evoluciona, como todo en la web, y no todos los navegadores admiten partes más nuevas de la especificación. Siempre verifica tus implementaciones consultando [CanIUse.com](https://caniuse.com){:target="_blank"}.
+> Ten en cuenta que CSS es un lenguaje que evoluciona, como todo en la web, y no todos los navegadores admiten partes más nuevas de la especificación. Siempre verifica tus implementaciones consultando [CanIUse.com](https://canius e.com){:target="_blank"}.
 
 En esta lección, agregaremos estilos a nuestra plaza en línea y aprenderemos más sobre varios conceptos de CSS: la cascada, la herencia y el uso de selectores, posicionamiento y uso de CSS para crear diseños. En el proceso, diseñaremos la plaza y crearemos la plaza en sí.
 
@@ -49,6 +51,10 @@ h1 {
 
 ---
 
+✅ ¿Que es la especificidad en css? Hagamos algunos experimentos para probar la especificidad.
+
+---
+
 ## 2. Herencia
 
 Los estilos se heredan de un estilo antepasado a un estilo descendiente, de modo que los elementos anidados heredan los estilos de sus padres.
@@ -63,7 +69,7 @@ body {
 }
 ```
 
-Abre la consola de tu navegador en la pestaña 'Elementos' y observa la fuente H1. Hereda su fuente del cuerpo, como se indica en el navegador:
+Abre la consola de tu navegador en la pestaña 'Elementos' y observa la fuente H1. Hereda su fuente del cuerpo (<body>), como se indica en el navegador:
 
 ![fuente heredada](/assets/images/body-font.png){:target="_blank"}
 
@@ -88,16 +94,17 @@ h1 {
 }
 ```
 
-Esta forma de diseñar una etiqueta te da control sobre elementos únicos, pero necesitas controlar los estilos de muchos elementos en tu plaza. Para hacer eso, necesitas aprovechar los selectores de CSS.
+Esta forma de estilizar una etiqueta te da control sobre elementos únicos, pero necesitas controlar los estilos de muchos elementos en tu plaza. Para hacer eso, necesitas aprovechar los selectores de CSS.
 
 # ID
 
-Agrega un poco de estilo para diseñar los contenedores izquierdo y derecho. Dado que solo hay un contenedor izquierdo y solo un contenedor derecho, se les dan identificadores en el marcado. Para diseñarlos, usa `#`:
+Agrega un poco de estilo para diseñar los contenedores izquierdo y derecho. Dado que solo hay un contenedor izquierdo y solo un contenedor derecho, se les dan identificadores en el código. Para estilizarlos, usamos `#`:
 
-```
+```css
 #contenedor-izquierdo {
 	background-color: #eee;
 	width: 15%;
+	height: 100%;
 	left: 0px;
 	top: 0px;
 	position: absolute;
@@ -107,6 +114,7 @@ Agrega un poco de estilo para diseñar los contenedores izquierdo y derecho. Dad
 #contenedor-derecho {
 	background-color: #eee;
 	width: 15%;
+	height: 100%;
 	right: 0px;
 	top: 0px;
 	position: absolute;
@@ -116,7 +124,7 @@ Agrega un poco de estilo para diseñar los contenedores izquierdo y derecho. Dad
 
 Aquí, has colocado estos contenedores con posicionamiento absoluto en el extremo izquierdo y derecho de la pantalla, y has utilizado porcentajes para su ancho para que puedan escalar para pantallas móviles pequeñas.
 
-✅ Este código se repite bastante, por lo tanto, no "DRY" (Don't Repeat yourself: No se repita); ¿Puede encontrar una mejor manera de diseñar estos identificadores, tal vez con un id y una clase? Necesitarías cambiar el marcado y refactorizar el CSS:
+✅ Este código se repite bastante, por lo tanto, no "DRY" (Don't Repeat yourself: No lo repitas vos mismo); ¿Puede encontrar una mejor manera de diseñar estos identificadores, tal vez con un id y una clase? Necesitarías cambiar el marcado y refactorizar el CSS:
 
 ```html
 <div id="contenedor-izquierdo" class="contenedor"></div>
@@ -175,7 +183,7 @@ En nuestra muestra, el "contenedor-componente" es un elemento de posición relat
 
 > El `componente` en sí también tiene un posicionamiento absoluto, necesario para que sea arrastrable, como descubrirás en la siguiente lección.
 
-✅ Experimenta cambiando los tipos de colocación de los contenedores laterales y el portaplantas. ¿Qué pasa?
+✅ Experimenta cambiando los tipos de colocación de los contenedores laterales y los contenedores de las imagenes. ¿Qué pasa?
 
 ## 5. Diseños CSS
 
@@ -225,7 +233,7 @@ CSS parece engañosamente sencillo, pero existen muchos desafíos cuando se trat
 Lectura adicional: [Diseña tu aplicación HTML con CSS](https://docs.microsoft.com/es-mx/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa){:target="_blank"}
 
 ## Tarea - Refactorización CSS
-Cambia el estilo de la plaza usando Flexbox o CSS Grid, y toma capturas de pantalla para mostrar que lo probaste en varios navegadores. Es posible que debas cambiar el marcado, así que crea una nueva versión de la aplicación para su refactorización. No te preocupes por hacer que los elementos se puedan arrastrar; solo refactoriza el HTML y CSS por ahora.
+Cambia el estilo de la plaza usando Flexbox o CSS Grid, y toma capturas de pantalla de los cambios en tu código y el resultado para mostrar que lo probaste. Es posible que debas cambiar el marcado, así que crea una nueva versión de la aplicación para su refactorización. No te preocupes por hacer que los elementos se puedan arrastrar; solo refactoriza el HTML y CSS por ahora.
 
 ### Rúbrica
 
