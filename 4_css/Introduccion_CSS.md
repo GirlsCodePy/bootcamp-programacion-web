@@ -1,8 +1,11 @@
 ---
 title: Introducción a CSS
 has_children: false
-nav_order: 4
+nav_order: 5
 ---
+
+# Proyecto Plaza Virtual Parte 2: Introducción a CSS
+
 # Introducción:
 
 CSS, o Cascading Style Sheets, resuelve un problema importante del desarrollo web: cómo hacer que tu sitio web se vea bien. Diseñar tus aplicaciones las hace más útiles y atractivas. También puedes usar CSS para crear un diseño web adaptable (Responsive), lo que permite que tus aplicaciones se vean bien sin importar en qué tamaño de pantalla se muestren. 
@@ -71,7 +74,7 @@ body {
 
 Abre la consola de tu navegador en la pestaña 'Elementos' y observa la fuente H1. Hereda su fuente del cuerpo (<body>), como se indica en el navegador:
 
-![fuente heredada](/assets/images/body-font.png){:target="_blank"}
+![fuente heredada](images/body-font.png){:target="_blank"}
 
 ✅ ¿Puedes hacer que un estilo anidado herede una propiedad diferente?
 
@@ -223,7 +226,7 @@ Ten en cuenta el uso de porcentajes aquí. Si reduces la escala de tu navegador,
 
 ---
 
-![plaza terminada](/assets/images/mi-plaza-terminada.png){:target="_blank"}
+![plaza terminada](images/mi-plaza-terminada.png){:target="_blank"}
 
 
 # Revisión y autoestudio
