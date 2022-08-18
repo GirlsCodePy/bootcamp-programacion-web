@@ -3,7 +3,7 @@ title: Introducción a CSS
 has_children: false
 nav_order: 4
 ---
-# Introducción:
+# Introducción a CSS
 
 CSS, o Cascading Style Sheets, resuelve un problema importante del desarrollo web: cómo hacer que tu sitio web se vea bien. Diseñar tus aplicaciones las hace más útiles y atractivas. También puedes usar CSS para crear un diseño web adaptable (Responsive), lo que permite que tus aplicaciones se vean bien sin importar en qué tamaño de pantalla se muestren. 
 CSS no se trata sólo de hacer que tu aplicación se vea bien; sus especificaciones incluyen animaciones y transformaciones que pueden permitir interacciones sofisticadas para tus aplicaciones. 
@@ -21,7 +21,7 @@ Deberías tener el HTML para tu plaza construido y listo para darle estilo.
 
 En tu carpeta de plaza, crea un nuevo archivo llamado `style.css`. Importa ese archivo en la sección `<head>`:
 
-```
+```html
 <link rel="stylesheet" href="./style.css" />
 ```
 
@@ -35,13 +35,13 @@ Las hojas de estilo en cascada incorporan la idea de que los estilos 'se mueven 
 
 Agrega el estilo en línea "color: red" a tu etiqueta `<h1>`:
 
-```HTML
+```html
 <h1 style="color: red">Mi plaza</h1>
 ```
 
 Luego, agrega el siguiente código a tu archivo `style.css`:
 
-```CSS
+```css
 h1 {
  color: blue;
 }
@@ -63,7 +63,7 @@ Los estilos se heredan de un estilo antepasado a un estilo descendiente, de modo
 
 Establece la fuente del cuerpo en una fuente determinada y verifica para ver la fuente de un elemento anidado:
 
-```
+```css
 body {
 	font-family: helvetica, arial, sans-serif;
 }
@@ -83,7 +83,7 @@ Abre la consola de tu navegador en la pestaña 'Elementos' y observa la fuente H
 
 Hasta ahora, tu archivo `style.css` tiene solo algunas etiquetas con estilo, y la aplicación se ve bastante extraña:
 
-```
+```css
 body {
 	font-family: helvetica, arial, sans-serif;
 }

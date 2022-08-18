@@ -4,7 +4,7 @@ has_children: false
 parent: Herramientas de programación y HTML
 ---
 
-# Introducción:
+# Introducción a HTML
 
 HTML, o HyperText Markup Language, es el "esqueleto" de la web. Si CSS 'viste' su HTML y JavaScript le da vida, el cuerpo de su aplicación web es su HTML. La sintaxis de HTML incluso refleja esa idea, ya que incluye etiquetas "head", "body" y "footer".
 
