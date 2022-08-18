@@ -4,6 +4,7 @@ title: Home
 nav_order: 1
 description: "Bootcamp de introduccion a la programacion web."
 permalink: /
+pdf: true
 ---
 
 # Introducción a la programación web.
