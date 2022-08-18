@@ -232,7 +232,7 @@ CSS parece engañosamente sencillo, pero existen muchos desafíos cuando se trat
 
 Lectura adicional: [Diseña tu aplicación HTML con CSS](https://docs.microsoft.com/es-mx/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa){:target="_blank"}
 
-## Tarea - Refactorización CSS
+## Tarea - Personalización de estilos
 Dale tu estilo personal a la plaza usando CSS para cambiar colores, opacidad, tamaños o formas, y toma capturas de pantalla de los cambios en tu código y el resultado para mostrar que lo probaste.
 Podes empezar por cambiar a apariencia del cielo y la tierra de la plaza jugando con los colores y opacidad.
 
