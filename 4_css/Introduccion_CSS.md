@@ -24,7 +24,7 @@ Deberías tener el HTML para tu plaza construido y listo para darle estilo.
 
 En tu carpeta de plaza, crea un nuevo archivo llamado `style.css`. Importa ese archivo en la sección `<head>`:
 
-```
+```html
 <link rel="stylesheet" href="./style.css" />
 ```
 
@@ -38,13 +38,13 @@ Las hojas de estilo en cascada incorporan la idea de que los estilos 'se mueven 
 
 Agrega el estilo en línea "color: red" a tu etiqueta `<h1>`:
 
-```HTML
+```html
 <h1 style="color: red">Mi plaza</h1>
 ```
 
 Luego, agrega el siguiente código a tu archivo `style.css`:
 
-```CSS
+```css
 h1 {
  color: blue;
 }
@@ -66,7 +66,7 @@ Los estilos se heredan de un estilo antepasado a un estilo descendiente, de modo
 
 Establece la fuente del cuerpo en una fuente determinada y verifica para ver la fuente de un elemento anidado:
 
-```
+```css
 body {
 	font-family: helvetica, arial, sans-serif;
 }
@@ -86,7 +86,7 @@ Abre la consola de tu navegador en la pestaña 'Elementos' y observa la fuente H
 
 Hasta ahora, tu archivo `style.css` tiene solo algunas etiquetas con estilo, y la aplicación se ve bastante extraña:
 
-```
+```css
 body {
 	font-family: helvetica, arial, sans-serif;
 }
@@ -235,14 +235,17 @@ CSS parece engañosamente sencillo, pero existen muchos desafíos cuando se trat
 
 Lectura adicional: [Diseña tu aplicación HTML con CSS](https://docs.microsoft.com/es-mx/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa){:target="_blank"}
 
-## Tarea - Refactorización CSS
-Cambia el estilo de la plaza usando Flexbox o CSS Grid, y toma capturas de pantalla de los cambios en tu código y el resultado para mostrar que lo probaste. Es posible que debas cambiar el marcado, así que crea una nueva versión de la aplicación para su refactorización. No te preocupes por hacer que los elementos se puedan arrastrar; solo refactoriza el HTML y CSS por ahora.
+## Tarea - Personalización de estilos
+Dale tu estilo personal a la plaza usando CSS para cambiar colores, opacidad, tamaños o formas, y toma capturas de pantalla de los cambios en tu código y el resultado para mostrar que lo probaste.
+Podes empezar por cambiar a apariencia del cielo y la tierra de la plaza jugando con los colores y opacidad.
 
 ### Rúbrica
 
 | Criterios | Ejemplar                                                         | Adecuada                      | Necesita mejorar                    |
 | -------- | ----------------------------------------------------------------- | ----------------------------- | ------------------------------------ |
-|          | Presenta una plaza completamente rediseñada usando Flexbox o CSS Grid | Modificó algunos de los elementos | No cambió el estilo de la plaza en absoluto |
+|          | Presenta una plaza con 4 o mas elementos modificados | Modificó modifico entre uno y tres elementos | No cambió el estilo de la plaza en absoluto |
+
+
 
 
 
