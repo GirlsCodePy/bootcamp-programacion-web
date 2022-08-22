@@ -1,10 +1,11 @@
 ---
 title: Introducción a HTML
 has_children: false
-parent: Herramientas de programación y HTML
+nav_order: 4
 ---
+# Proyecto Plaza Virtual Parte 1: Introducción a HTML
 
-# Introducción a HTML
+# Introducción:
 
 HTML, o HyperText Markup Language, es el "esqueleto" de la web. Si CSS 'viste' su HTML y JavaScript le da vida, el cuerpo de su aplicación web es su HTML. La sintaxis de HTML incluso refleja esa idea, ya que incluye etiquetas "head", "body" y "footer".
 
@@ -14,7 +15,7 @@ En esta lección, usaremos HTML para diseñar el 'esqueleto' de la interfaz de n
 
 En tu computadora, crea una carpeta llamada 'plaza' y dentro de ella, un archivo llamado 'index.html'. Puedes hacer esto en Visual Studio Code después de crear tu carpeta de plaza abriendo una nueva ventana de VS Code, haciendo clic en 'abrir carpeta' y navegando a tu nueva carpeta. Haz clic en el botón pequeño 'archivo' en el panel del Explorador y crea el nuevo archivo:
 
-![explorador en VS Code](assets/images/vs-code-index.png)
+![explorador en VS Code](images/vs-code-index.png)
 
 > Los archivos index.html indican a un navegador que es el archivo predeterminado en una carpeta; las URL como `https://anysite.com/test` se pueden construir usando una estructura de carpetas que incluya una carpeta llamada `test` con `index.html` dentro; `Index.html` no tiene que aparecer en una URL.
 
@@ -221,7 +222,7 @@ HTML es el sistema de bloques de construcción 'probado y verdadero' que ha ayud
 
 Imagina que estás diseñando o rediseñando tu sitio web personal. Crea mockup del mismo y luego el HTML que usarías para construir los diversos elementos que componen al mismo. Puedes hacer esto en papel y escanearlo, o usar el software de tu elección, solo asegúrate de codificar manualmente todo el HTML.
 
-![Proceso de maquetado](assets/images/mockup.jpeg)
+![Proceso de maquetado](images/mockup.jpeg)
 
 ### Rúbrica
 

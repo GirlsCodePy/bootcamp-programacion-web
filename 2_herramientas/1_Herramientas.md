@@ -1,7 +1,8 @@
 ---
 title: Herramientas
 has_children: false
-parent: Herramientas de programación y HTML
+parent: Herramientas de programación
+nav_order: 1
 ---
 # Herramientas de programación
 

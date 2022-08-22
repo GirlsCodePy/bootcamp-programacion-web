@@ -1,8 +1,13 @@
 ---
-title: Introducción a JavaScript
+title: DOM y Closure
 has_children: false
+parent: Introducción a JavaScript
 nav_order: 5
 ---
+
+# Proyecto Plaza Virtual Parte 3: Introducción a Manipulación del DOM y Closure
+
+Es hora de retomar nuestro proyecto de plaza virtual mientras continuamos avanzando en la introducción a JavaScript.
 
 # Introducción:
 
@@ -14,7 +19,7 @@ Usaremos un closure para manipular el DOM.
 
 Piensa en el DOM como un árbol, que representa todas las formas en que se puede manipular un documento de página web. Se han escrito varias API (interfaces de programas de aplicación) para que los programadores, utilizando el lenguaje de programación de su elección, puedan acceder al DOM y editarlo, cambiarlo, reorganizarlo y administrarlo de otro modo.
 
-![representación de HTML](/assets/images/dom-tree.png)
+![representación de HTML](images/dom-tree.png)
 
 
 En esta lección, completaremos nuestro proyecto de plaza interactiva creando el JavaScript que permitirá al usuario manipular los componentes en la página.
@@ -44,27 +49,27 @@ Lo primero que debes hacer es crear referencias a los componentes que deseas man
 # Tarea:
 
 ```html
-dragElement(document.getElementById('plaza1'));
-dragElement(document.getElementById('plaza2'));
-dragElement(document.getElementById('plaza3'));
-dragElement(document.getElementById('plaza4'));
-dragElement(document.getElementById('plaza5'));
-dragElement(document.getElementById('plaza6'));
-dragElement(document.getElementById('plaza7'));
-dragElement(document.getElementById('plaza8'));
-dragElement(document.getElementById('plaza9'));
-dragElement(document.getElementById('plaza10'));
-dragElement(document.getElementById('plaza11'));
-dragElement(document.getElementById('plaza12'));
-dragElement(document.getElementById('plaza13'));
-dragElement(document.getElementById('plaza14'));
-dragElement(document.getElementById('plaza15'));
-dragElement(document.getElementById('plaza16'));
-dragElement(document.getElementById('plaza17'));
-dragElement(document.getElementById('plaza18'));
+arrastrarElemento(document.getElementById('plaza1'));
+arrastrarElemento(document.getElementById('plaza2'));
+arrastrarElemento(document.getElementById('plaza3'));
+arrastrarElemento(document.getElementById('plaza4'));
+arrastrarElemento(document.getElementById('plaza5'));
+arrastrarElemento(document.getElementById('plaza6'));
+arrastrarElemento(document.getElementById('plaza7'));
+arrastrarElemento(document.getElementById('plaza8'));
+arrastrarElemento(document.getElementById('plaza9'));
+arrastrarElemento(document.getElementById('plaza10'));
+arrastrarElemento(document.getElementById('plaza11'));
+arrastrarElemento(document.getElementById('plaza12'));
+arrastrarElemento(document.getElementById('plaza13'));
+arrastrarElemento(document.getElementById('plaza14'));
+arrastrarElemento(document.getElementById('plaza15'));
+arrastrarElemento(document.getElementById('plaza16'));
+arrastrarElemento(document.getElementById('plaza17'));
+arrastrarElemento(document.getElementById('plaza18'));
 ```
 
-¿Que está pasando aquí? Estás haciendo referencia al documento y mirando a través de su DOM para encontrar un elemento con un Id particular. ¿Recuerdas en la primera lección sobre HTML que le diste ID individuales a cada imagen de la plaza (`id = "planza1"`)? Ahora harás uso de eso. Después de identificar cada elemento, pasa ese elemento a una función llamada `dragElement` que crearás en un minuto. Por lo tanto, el elemento en el HTML ahora está habilitado para arrastrar, o lo estará en breve.
+¿Que está pasando aquí? Estás haciendo referencia al documento y mirando a través de su DOM para encontrar un elemento con un Id particular. ¿Recuerdas en la primera lección sobre HTML que le diste ID individuales a cada imagen de la plaza (`id = "planza1"`)? Ahora harás uso de eso. Después de identificar cada elemento, pasa ese elemento a una función llamada `arrastrarElemento` que crearás en un minuto. Por lo tanto, el elemento en el HTML ahora está habilitado para arrastrar, o lo estará en breve.
 
 ✅ ¿Por qué hacemos referencia a elementos por Id? ¿Por qué no por su clase de CSS? Puedes consultar la lección anterior sobre CSS para responder a esta pregunta.
 
@@ -72,17 +77,17 @@ dragElement(document.getElementById('plaza18'));
 
 ## 2. El closure
 
-Ahora estás listo para crear el closure dragElement, que es una función externa que encierra una función o funciones internas (en nuestro caso, tendremos tres).
+Ahora estás listo para crear el closure arrastrarElemento, que es una función externa que encierra una función o funciones internas (en nuestro caso, tendremos tres).
 
 Los closures son útiles cuando una o más funciones necesitan acceder al alcance de una función externa. He aquí un ejemplo:
 
 ```javascript
 function mostrarCaramelo(){
-	let caramelos = ['jellybeans'];
-	function agregarCaramelo(tipoCaramelo) {
-		caramelo.push(tipoCaramelo)
-	}
-	agregarCaramelo('gomitas');
+  let caramelos = ['jellybeans'];
+  function agregarCaramelo(tipoCaramelo) {
+    caramelo.push(tipoCaramelo)
+  }
+  agregarCaramelo('gomitas');
 }
 mostrarCaramelo();
 console.log(caramelos)
@@ -98,17 +103,17 @@ Debajo de las declaraciones de elementos en `script.js`, crea una función:
 
 
 ```javascript
-function dragElement(elementoDePlaza) {
-	//establecer 4 posiciones para posicionar en la pantalla
-	let pos1 = 0,
-		pos2 = 0,
-		pos3 = 0,
-		pos4 = 0;
-	elementoDePlaza.onpointerdown = arrastrarPuntero;
+function arrastrarElemento(elementoDePlaza) {
+  //establecer 4 posiciones para posicionar en la pantalla
+  let pos1 = 0,
+   pos2 = 0,
+   pos3 = 0,
+   pos4 = 0;
+  elementoDePlaza.onpointerdown = arrastrarPuntero;
 }
 ```
 
-`dragElement` obtiene su objeto `elementoDePlaza` de las declaraciones en la parte superior del script. Luego, establece algunas posiciones locales en "0" para el objeto pasado a la función. Estas son las variables locales que se manipularán para cada elemento a medida que agregass la funcionalidad de arrastrar y soltar dentro del closure de cada elemento. La plaza estará poblada por estos elementos arrastrados, por lo que la aplicación debe realizar un seguimiento de dónde se colocan.
+`arrastrarElemento` obtiene su objeto `elementoDePlaza` de las declaraciones en la parte superior del script. Luego, establece algunas posiciones locales en "0" para el objeto pasado a la función. Estas son las variables locales que se manipularán para cada elemento a medida que agregass la funcionalidad de arrastrar y soltar dentro del closure de cada elemento. La plaza estará poblada por estos elementos arrastrados, por lo que la aplicación debe realizar un seguimiento de dónde se colocan.
 
 Además, al elementoDePlaza que se pasa a esta función se le asigna un evento `pointerdown`, que forma parte de las [API web](https://developer.mozilla.org/es/docs/Web/API){:target="_blank"} diseñadas para ayudar con la gestión del DOM. `Onpointerdown` se dispara cuando se presiona un botón, o en nuestro caso, se toca un elemento que se puede arrastrar. Este controlador de eventos funciona tanto en [navegadores web como móviles](https://caniuse.com/?search=onpointerdown){:target="_blank"}, con algunas excepciones.
 
@@ -124,10 +129,10 @@ El elementoDePlaza está listo para ser arrastrado; cuando se dispara el evento 
 
 ```javascript
 function arrastrarPuntero(e) {
-	e.preventDefault();
-	console.log(e);
-	pos3 = e.clientX;
-	pos4 = e.clientY;
+  e.preventDefault();
+  console.log(e);
+  pos3 = e.clientX;
+  pos4 = e.clientY;
 }
 ```
 
@@ -159,13 +164,13 @@ Agrega la función `arrastrarElemento` justo después del corchete de cierre de 
 
 ```javascript
 function arrastrarElemento(e) {
-	pos1 = pos3 - e.clientX;
-	pos2 = pos4 - e.clientY;
-	pos3 = e.clientX;
-	pos4 = e.clientY;
-	console.log(pos1, pos2, pos3, pos4);
-	elementoDePlaza.style.top = elementoDePlaza.offsetTop - pos2 + 'px';
-	elementoDePlaza.style.left = elementoDePlaza.offsetLeft - pos1 + 'px';
+  pos1 = pos3 - e.clientX;
+  pos2 = pos4 - e.clientY;
+  pos3 = e.clientX;
+  pos4 = e.clientY;
+  console.log(pos1, pos2, pos3, pos4);
+  elementoDePlaza.style.top = elementoDePlaza.offsetTop - pos2 + 'px';
+  elementoDePlaza.style.left = elementoDePlaza.offsetLeft - pos1 + 'px';
 }
 ```
 En esta función, editas mucho las posiciones iniciales 1-4 que estableces como variables locales en la función externa. ¿Que está pasando aquí?
@@ -183,8 +188,8 @@ La tarea final para completar la interfaz es agregar la función `closeElementDr
 
 ```javascript
 function detenerArrastreElemento() {
-	document.onpointerup = null;
-	document.onpointermove = null;
+  document.onpointerup = null;
+  document.onpointermove = null;
 }
 ```
 
@@ -197,7 +202,7 @@ Esta pequeña función restablece los eventos `onpointerup` y `onpointermove` pa
 
 ---
 
-🥇¡Felicitaciones! Has terminado tu hermosa plaza. ![plaza terminada](/assets/images/mi-plaza-final.png)
+🥇¡Felicitaciones! Has terminado tu hermosa plaza. ![plaza terminada](images/mi-plaza-final.png)
 
 🚀Desafío: agrega un nuevo controlador de eventos a tu closure para hacer algo más en los componentes; por ejemplo, haz doble clic en un componente para traerlo al frente. ¡Sé creativa!
 
