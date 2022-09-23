@@ -263,6 +263,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   just-the-docs
+  kramdown
   webrick (~> 1.7)
 
 BUNDLED WITH
