@@ -243,12 +243,5 @@ Podes empezar por cambiar a apariencia del cielo y la tierra de la plaza jugando
 | Criterios | Ejemplar                                                         | Adecuada                      | Necesita mejorar                    |
 | -------- | ----------------------------------------------------------------- | ----------------------------- | ------------------------------------ |
 |          | Presenta una plaza con 4 o mas elementos modificados | Modificó modifico entre uno y tres elementos | No cambió el estilo de la plaza en absoluto |
-<<<<<<< HEAD:3_Intro_CSS.md
-=======
-
-
->>>>>>> Clase_5:4_css/Introduccion_CSS.md
-
-
 
 
