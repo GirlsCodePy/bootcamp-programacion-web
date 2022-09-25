@@ -11,3 +11,4 @@ $ rvm alias create default 3.1.2
 4. Instalar depedencias con: ``bundle install``
 5. Levantar el proyecton con: ``bundle exec jekyll serve``
 6. Se levanta localmente en [localhost:4000](http://127.0.0.1:4000)
+7.
