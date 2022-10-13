@@ -168,7 +168,7 @@ Más información sobre los muchos operadores disponibles para el usuario [en MD
 
 ### Instrucciones
 
-Para practicar los conceptos aprendidos, vamos a aplicarlos en un pequeño programa para conocer si el mayor de una serie de numeros.
+Para practicar los conceptos aprendidos, vamos a aplicarlos en un pequeño programa para conocer cual es el mayor de una serie de numeros.
 
 ### La tarea
 
