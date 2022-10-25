@@ -198,21 +198,6 @@ Ahora viste que tenemos tres formas de pasar una función como parámetro y pued
 
 Vale la pena [leer un poco más sobre las funciones de flecha](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Functions/Arrow_functions){:target="_blank"}, ya que se utilizan cada vez más en bases de código. Practicá escribir una función y luego reescribirla con esta sintaxis.
 
-
-## Tarea - Diversión con funciones
-
-### Instrucciones
-
-Creá diferentes funciones, tanto funciones que devuelvan algo como funciones que no devuelvan nada.
-
-Ve si podés crear una función que tenga una combinación de parámetros y parámetros con valores predeterminados.
-
-### Rúbrica
-
-| Criterios | Ejemplar | Adecuado | Necesita mejorar |
-| -------- | -------------------------------------------------- ------------------------------------ | -------------------------------------------------- -------------- | ----------------- |
-| | La solución se ofrece con dos o más funciones de buen rendimiento con diversos parámetros | La solución de trabajo se ofrece con una función y pocos parámetros | La solución tiene errores |
-
 ## Tarea - Refactor de programa para comparar numeros
 
 ### Instrucciones
