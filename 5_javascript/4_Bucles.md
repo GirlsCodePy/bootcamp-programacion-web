@@ -3,6 +3,7 @@ title: Vectores y Bucles
 has_children: false
 parent: Introducción a JavaScript
 nav_order: 4
+nav_exclude: true
 ---
 
 # Conceptos básicos de JavaScript: vectores y bucles
